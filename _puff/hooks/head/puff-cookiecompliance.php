@@ -12,7 +12,6 @@ if (
 	) &&
 	!isset($_COOKIE[$CookieCompliance])
 ) {
-
 	echo <<<'SCRIPT1'
 <script>
 var BodyTag = document.getElementsByTagName('body')[0];
@@ -36,6 +35,7 @@ SCRIPT2;
 	isset($_COOKIE[$CookieCompliance])
 ) {
 	setcookie($CookieCompliance, 'accepted', 2147483647, '/', $Sitewide['Request']['Host'], $Sitewide['Request']['Secure'], $Sitewide['Cookies']['HTTPOnly']);
+
 } else if (
 	!empty($Sitewide['Settings']['Cookies Compliance']['Auto Accept'])
 ) {
