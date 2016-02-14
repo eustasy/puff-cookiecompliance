@@ -8,4 +8,4 @@ $Sitewide['Settings']['Cookies Compliance']['Worldwide'] = false;
 $Sitewide['Settings']['Cookies Compliance']['Auto Accept'] = false;
 
 // Geo Version
-$Sitewide['Version']['CookieCompliance'] = '0.3';
+$Sitewide['Version']['CookieCompliance'] = '0.4';
