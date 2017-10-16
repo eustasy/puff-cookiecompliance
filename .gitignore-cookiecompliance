@@ -1,3 +1,4 @@
 # [Puff Cookie Compliance](https://github.com/eustasy/puff-cookiecompliance)
-_hooks/head/puff-cookiecompliance.php
+_hooks/endload/puff-cookiecompliance.php
+_hooks/preload/puff-cookiecompliance.php
 _settings/cookiecompliance*
