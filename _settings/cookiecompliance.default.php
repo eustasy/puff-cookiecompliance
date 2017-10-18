@@ -10,4 +10,4 @@ $Sitewide['Settings']['Cookies Compliance']['Auto Accept'] = false;
 $Sitewide['Settings']['Cookies Compliance']['Cookie'] = $Sitewide['Cookies']['Prefix'].'_cookie_compliance';
 
 // Version
-$Sitewide['Version']['CookieCompliance'] = '0.4';
+$Sitewide['Version']['CookieCompliance'] = '0.5.0';
